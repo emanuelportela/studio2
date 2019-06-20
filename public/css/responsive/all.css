@@ -7,84 +7,50 @@
       right: 40px;
    }
 
-   .header-logo {
-		padding-top: 10px;
-      padding-bottom: 10px;
-   }
-
-   .header-section {
+   
+   .header-2 {
       padding: 0 30px;
-      height: 82px;
    }
 
-	.navbar {
-		display: none;
-		float: none;
-		clear: both;
-		border-top: 1px solid #ddd;
+   .header-logo {
+      display: initial !important;
+      width: 70%;
    }
 
-   .navbar li {
-		display: inline;
-   }
-   
-	.navbar li a {
-		display: block;
-		padding: 10px;
-		margin-right: 0;
-	}
-	.navbar li a:after {
-		left: 0%;
-	}
-	.navbar li a:hover:after {
-		width: 10px;
-		margin-left: 10px;
-   }
-   
-	.navbar .current a:after {
-		margin-left: 10px;
-   }
-   
-	.responsive {
-		display: block;
-		color: white;
-		font-size: 30px;
-		position: absolute;
-		right: 5vh;
-		margin: 20px 20px;
+   .header-logo img {
+      height: 50px;
+      transition: transform .2s;
    }
 
-   .responsive i {
-      border: 2px solid white;
-      border-radius: 5px;
-      padding: 5px 6px;
+   .header-logo img:hover {
+      height: 50px;
+      transform: scale(1.1);
+   }
+
+
+   .navbar {
+      display: none;
+      float: none;
+      clear: both;
+      border-top: 1px solid #ddd;
+   }
+
+   .responsive {
+      display: block;
+      color: grey;
+      font-size: 30px;
+      width: 20%;
+      display: flex;
+      justify-content: flex-end;
    }
 
    .responsiva {
-      color: #78593B;
-      border: 2px solid #78593B !important;
+      color: orange;
    }
 
 
    .responsive i:hover {
-      border: 2px solid #78593B;
-      color: #78593B;
-   }
-	
-	.footer-nav {
-      display: none;
-   }
-
-   footer {
-      height: 305px;
-   }
-   
-   .footer-1 {
-      height: 255px;
-   }
-
-   .footer-logo {
-      margin-bottom: 40px;
+      color: orange;
    }
 }
 

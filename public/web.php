@@ -16,11 +16,10 @@
    <link rel="stylesheet" href="css/npm/imagehover.min.css">
    
    <!-- Pages -->
-   <link rel="stylesheet" href="css/index.css">
+   <link rel="stylesheet" href="css/web.css">
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/footer.css">
    <link rel="stylesheet" href="css/responsive/all.css">
-   <!-- <link rel="stylesheet" href="css/responsive/indexR.css"> -->
 
    <!-- Font-->
    <link href="https://fonts.googleapis.com/css?family=Courgette|Lobster|Pacifico|Patrick+Hand|Roboto" rel="stylesheet">
@@ -32,7 +31,7 @@
 
 <body>
 
-   <?php include("php/index/index-1.php"); ?>
+   <?php include("php/web/web-1.php"); ?>
 
    <?php include("php/footer.php"); ?>
    
