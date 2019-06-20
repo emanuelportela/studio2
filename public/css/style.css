@@ -1,0 +1,263 @@
+/* FONTS *//*
+
+font-family: 'Roboto', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Courgette', cursive;
+
+*/
+
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+   margin: 0;
+   font-family: 'Roboto', sans-serif;
+}
+
+/* BOX (start) */
+
+.box {
+   position: fixed;
+   bottom: 60px;
+   right: 60px;
+   height: 40px;
+   width: 40px;
+   z-index: 999;
+   background-color: rgb(20, 14, 7);
+   -webkit-transition: all 0.4s ease 0s;
+	-o-transition: all 0.4s ease 0s;
+   transition: all 0.4s ease 0s;
+   justify-content: center;
+   align-items: center;
+   display: none;
+}
+
+.box:hover {
+   background-color: #46351B;
+   cursor: pointer;
+}
+
+.box i {
+   color: white;
+   font-size: 20px;
+}
+
+.scroll-box {
+   display: flex;
+}
+
+/* BOX (end) */
+
+/* NAVBAR (start) */
+
+.responsive {
+	display: none;
+}
+
+.header-section {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	padding: 0 100px;
+	-webkit-transition: all 0.4s ease 0s;
+	-o-transition: all 0.4s ease 0s;
+   transition: all 0.4s ease 0s;
+   width: 100%;
+   height: 79px;
+}
+
+.scroll {
+   background-color: white;
+   position: fixed;
+   top: 0;
+	z-index: 999;
+	padding: 0 100px;
+   width: 100%;
+   box-shadow: 0px 3px 5px #E2E2E2;
+}
+
+.scrolled {
+   color: #ADADAD !important;
+}
+
+.clicked {
+   background-color: white;
+}
+
+.clicked-2 {
+   border: 2px solid #78593B !important;
+}
+
+.scrolled:hover {
+   color: #78593B !important;
+}
+
+.header-logo {
+	display: inline-block;
+	float: left;
+   padding-top: 10px;
+   cursor: pointer;
+}
+
+.header-logo img {
+	width: 80px;
+   transition: transform .2s;
+}
+
+.header-logo img:hover {
+   transform: scale(1.1);
+}
+
+.navbar {
+	list-style: none;
+   margin: 0;
+   display: flex;
+   justify-content: flex-end;
+   font-weight: bold;
+   padding: 0;
+}
+
+.navbar li {
+   display: inline;
+}
+
+.navbar li a {
+	display: inline-block;
+   padding: 30px 20px;
+	margin-left: 10px;
+	color: white;
+	position: relative;
+   font-size: 15px;
+	-webkit-transition: all 0.4s ease 0s;
+	-o-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+}
+
+.navbar li a:hover, .navbar li a.active {
+   color: #78593B;
+   text-decoration: none;
+}
+
+.navbar li.active a {
+	color: #78593B;
+}
+
+
+/* NAVBAR (end) */
+
+
+
+
+/* HEADER (start) */
+
+.header-1, .header-2, .header-3, .header-4 {
+   height: 400px;
+   background-size: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+}
+
+/* .header-1 { background-image: url('../img/DSC04831.jpg'); background-position-y: 15%; } */
+.header-2 { background-image: url('../img/DSC06172.jpg'); background-position-y: 30%; }
+.header-3 { background-image: url('../img/DSC06152.jpg'); background-position-y: 100%; }
+.header-4 { background-image: url('../img/DSC05226.jpg'); background-position-y: 0%; }
+
+.carousel {
+   width: 100%;
+   height: 100%;
+   z-index: 1;
+}
+
+.c-1 { 
+   background-image: url('../img/DSC04831.jpg'); 
+   background-position-y: 90%; 
+   background-size: 100%; 
+   background-attachment: fixed;
+   width: 100%; 
+   height: 100%;
+}
+
+.c-2 { 
+   background-image: url('../img/DSC06172.jpg'); 
+   background-position-y: 30%; 
+   background-size: 100%; 
+   background-attachment: fixed;
+   width: 100%; 
+   height: 100%;
+}
+
+.header-filtre {
+   width: 100%;
+   height: 100%;
+   z-index: 2;
+   background-color: rgba(0,0,0, 0.4);
+}
+
+.header-text {
+   width: 100%;
+   height: 100%;
+   z-index: 3;
+   font-family: 'Courgette', cursive;
+   font-size: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   font-size: 50px;
+}
+
+/* HEADER (end) */
+
+
+
+
+/* BURGER MENU (start) */
+
+.burger-1 {
+   height: 400px;
+   width: 100%;
+   display: none;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: center;
+   border: solid 2px rgb(20, 14, 7);
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   z-index: 999;
+   position: fixed;
+   top: 82px;
+   background-color: #78593B;
+}
+
+#burger:hover {
+   cursor: pointer;
+} 
+
+.b-1 {
+   height: 25%;
+   width: 100%;
+   font-family: 'Courgette', cursive;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.b-2 {
+   text-decoration: none;
+   color: #FFFFFF;
+   font-size: 35px;
+}
+
+.b-2:hover {
+   color: rgb(20, 14, 7);
+   text-decoration: none;
+}
+
+/* BURGER MENU (end) */

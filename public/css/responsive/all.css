@@ -1,0 +1,109 @@
+/* ECRAN MEDIUM - 767px (start) */
+
+@media only screen and (max-width: 767px) {
+
+   .box {
+      bottom: 40px;
+      right: 40px;
+   }
+
+   .header-logo {
+		padding-top: 10px;
+      padding-bottom: 10px;
+   }
+
+   .header-section {
+      padding: 0 30px;
+      height: 82px;
+   }
+
+	.navbar {
+		display: none;
+		float: none;
+		clear: both;
+		border-top: 1px solid #ddd;
+   }
+
+   .navbar li {
+		display: inline;
+   }
+   
+	.navbar li a {
+		display: block;
+		padding: 10px;
+		margin-right: 0;
+	}
+	.navbar li a:after {
+		left: 0%;
+	}
+	.navbar li a:hover:after {
+		width: 10px;
+		margin-left: 10px;
+   }
+   
+	.navbar .current a:after {
+		margin-left: 10px;
+   }
+   
+	.responsive {
+		display: block;
+		color: white;
+		font-size: 30px;
+		position: absolute;
+		right: 5vh;
+		margin: 20px 20px;
+   }
+
+   .responsive i {
+      border: 2px solid white;
+      border-radius: 5px;
+      padding: 5px 6px;
+   }
+
+   .responsiva {
+      color: #78593B;
+      border: 2px solid #78593B !important;
+   }
+
+
+   .responsive i:hover {
+      border: 2px solid #78593B;
+      color: #78593B;
+   }
+	
+	.footer-nav {
+      display: none;
+   }
+
+   footer {
+      height: 305px;
+   }
+   
+   .footer-1 {
+      height: 255px;
+   }
+
+   .footer-logo {
+      margin-bottom: 40px;
+   }
+}
+
+/* ECRAN MEDIUM - 767px (end) */
+
+
+
+/* ECRAN SMALL - 500px (start) */
+
+@media only screen and (max-width: 500px) {
+   .responsive {
+      right: 5vh;
+      margin: 20px 10px;
+   }
+
+   .box {
+      bottom: 20px;
+      right: 20px;
+   }
+}
+
+/* ECRAN SMALL - 500px (end) */
