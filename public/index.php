@@ -20,7 +20,6 @@
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/footer.css">
    <link rel="stylesheet" href="css/responsive/all.css">
-   <!-- <link rel="stylesheet" href="css/responsive/indexR.css"> -->
 
    <!-- Font-->
    <link href="https://fonts.googleapis.com/css?family=Courgette|Lobster|Pacifico|Patrick+Hand|Roboto" rel="stylesheet">
@@ -32,9 +31,11 @@
 
 <body>
 
-   <?php include("php/index/index-1.php"); ?>
+   <?php include("php/index/index-1.php");?>
+   <!-- ?php include("php/index/index-2-test.php");?> -->
+   <?php include("php/index/index-2.php");?>
 
-   <?php include("php/footer.php"); ?>
+   <?php include("php/footer.php");?>
    
    <script src="js/main.js"></script>
    <script src="js/jquery-2.1.4.min.js"></script>

@@ -7,6 +7,18 @@
       right: 40px;
    }
 
+   .header-1 {
+      padding: 0 30px;
+      font-size: 11px;
+   }
+   
+   .header-1-1 i, .header-1-1 a {
+      margin-right: 5px;
+   }
+   
+   .header-1-2 {
+      font-size: 13px;
+   }
    
    .header-2 {
       padding: 0 30px;
@@ -26,7 +38,6 @@
       height: 50px;
       transform: scale(1.1);
    }
-
 
    .navbar {
       display: none;
@@ -61,10 +72,6 @@
 /* ECRAN SMALL - 500px (start) */
 
 @media only screen and (max-width: 500px) {
-   .responsive {
-      right: 5vh;
-      margin: 20px 10px;
-   }
 
    .box {
       bottom: 20px;

@@ -54,7 +54,8 @@ body {
 
 /* BOX (end) */
 
-/* NAVBAR (start) */
+
+/* HEADER-1 (start) */
 
 .responsive {
    display: none;
@@ -63,17 +64,63 @@ body {
 .header-1 {
    background-color: black;
    height: 30px;
+   display: flex;
+   padding: 0 100px;
+   font-size: 14px;
 }
+
+.header-1-1 {
+   width: 80%;
+   display: flex;
+   align-items: center;
+   color: #ccc;
+}
+
+.header-1-1 i, .header-1-1 a {
+   margin-right: 10px;
+   text-decoration: none;
+   color: #ccc;
+}
+
+.header-1-1 a:hover {
+   color: orange;
+}
+
+.header-1-2 {
+   width: 20%;
+   font-size: 18px;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+.header-1-2 a {
+   text-decoration: none;
+   color: #ccc;
+   margin-left: 12px;
+}
+
+.header-1-2 a:hover {
+   color: orange;
+}
+
+/* HEADER-1 (end) */
+
+
+/* NAVBAR (start) */
 
 .header-2 {
    padding: 0 150px;
    width: 100%;
    height: 70px;
    background-color: white;
+   background-color: rgba(260,260,260,0.2);
    display: flex;
    align-items: center;
    justify-content: center;
    font-weight: bold;
+   position: absolute;
+   top: 30px;
 }
 
 .navbar {
@@ -111,7 +158,7 @@ body {
 
 .navbar li a {
    display: inline-block;
-   color: black;
+   color: white;
    position: relative;
    font-size: 15px;
    -webkit-transition: all 0.4s ease 0s;
@@ -161,6 +208,14 @@ body {
          -webkit-transition: all 0.4s ease 0s;
          -o-transition: all 0.4s ease 0s;
          transition: all 0.4s ease 0s;
+      }
+
+      .nonactiveblack {
+         color: black !important;
+      }
+
+      .nonactiveblack:hover {
+         color: orange !important;
       }
 
    /* AU SCROLL (end) */
